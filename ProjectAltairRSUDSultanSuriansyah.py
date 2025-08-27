@@ -348,7 +348,7 @@ root.geometry("600x780")
 main_frame = ctk.CTkFrame(master=root)
 main_frame.pack(pady=20, padx=20, fill="both", expand=True)
 
-title_label = ctk.CTkLabel(master=main_frame, text="SIRS INPUT AUTOMATION", font=ctk.CTkFont(size=20, weight="bold"))
+title_label = ctk.CTkLabel(master=main_frame, text="SIRS INPUT AUTOMATION", font=ctk.CTkFont(size=22, weight="bold"))
 title_label.pack(pady=(10, 20), padx=20)
 
 tab_view = ctk.CTkTabview(master=main_frame)
